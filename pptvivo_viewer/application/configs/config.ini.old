@@ -1,0 +1,32 @@
+;database configuration
+dbms=mysql
+dbserver=mysql
+dbname=pptvivo
+dbuser=pptvivo
+dbpass=admin00
+
+;Timezone
+default.timezone="America/Argentina/Mendoza"
+
+;minify options
+minimice.css=1
+minimice.js=1
+
+;ppt importing
+output.format=png
+intermediate.format=pdf
+presentations.path.alias=/var/www/pptvivo/files/
+presentations.path.users=users/presentations/
+presentations.path.users.files.public=users/presentations/
+convert.command.path=/opt/image_converter.sh
+
+;facebook app information
+facebook.app.id = "375441762642500"
+facebook.app.secret = "13e4b7e172e8e6c871582125ebdca2ff"
+
+;twitter app information
+twitter.consumer.key = "zmC4NdcGzapmKX3SEKZbn5IpT"
+twitter.consumer.secret = "PJ4KFAE92YSaXRvXBUqn95iR2gIhGPqYk8xwa87QZU7L2r8YXO"
+
+;google api key
+google.api.key = "AIzaSyBpQ6J5FLo9Y2aI-iOCESNkEQcDpbxjku0"

@@ -1,0 +1,300 @@
+@CHARSET "UTF-8";
+
+.popup-window {
+	_position: fixed;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+}
+
+.popup-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+	z-index: 10000;
+}
+
+.popup-window-transparent {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+}
+
+.popup-window-light {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+}
+
+* html .popup-window-light { /* ie6 hack */
+	position: absolute;
+}
+
+.popup-window-dark {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+}
+
+.login-popup-close {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	cursor: pointer;
+}
+
+.popup-window-transparent {
+	background-image: url("/core/img/popup/blank.png");
+}
+
+.popup-window-light {
+	background-color: #000;
+	opacity: 0.6;
+	filter: alpha(opacity =   60);
+}
+
+.popup-window-dark {
+	background-image: url("/core/img/popup/dark.png");
+}
+
+.popup-body {
+	background-color: transparent;
+}
+
+.login-popup-loading-label {
+	font-size: 12px;
+}
+
+.login-popup-loading-icon {
+	
+}
+
+#image-popup {
+	border: 7px solid #09305b;
+}
+
+.img-popup-container-1 {
+	border: 1px solid white;
+	background-color: white;
+}
+
+.img-popup-container-1 img {
+	cursor: pointer;
+}
+
+.img-popup-message {
+	font-size: 9px;
+	font-family: verdana;
+	padding: 3px;
+	text-align: center;
+	color: #666;
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+.basic-popup {
+	background-color: white;
+	/* font-family: Verdana, Helvetica, Arial; */
+	/*padding: 10px;*/
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+    text-align: center;
+    top: 0;
+
+	
+}
+
+.basic-popup h1 {
+	margin-top: 0px;
+}
+
+.basic-popup-border {
+	border: 10px solid #556FA7;
+	margin-right: 4px;
+	margin-top: 13px;
+}
+
+.popup-scroll {
+	overflow: auto;
+	background-color: white;
+}
+
+.popup-button {
+	min-width: 100px;
+	*width: auto !important;
+	text-align: center;
+}
+
+.popup-title {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/*  ******************** POPUPS - LOGIN / REGISTER ********************  */
+/*  *******************************************************************  */
+#login {
+	background: #09305b url("/core/img/popup/bg-body-login.gif") no-repeat;
+	width: 590px;
+	height: 311px;
+	font-size: 15px;
+	font-family: Verdana, Helvetica, Arial;
+	position: relative;
+}
+
+#login h1 {
+	font-family: Tahoma, Verdana, Helvetica, Arial;
+	color: #72a6d2;
+	font-size: 28px;
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 46px;
+}
+
+#login table {
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#login input[type="button"],input[type="reset"] {
+	
+}
+
+#login .input-text {
+	width: 200px;
+	padding-top: 6px;
+	padding-left: 4px;
+	font-family: Verdana, Helvetica;
+	font-size: 0.9em;
+	color: #1b4987;
+	border: 1px solid #72a7d1;
+	height: 20px;
+	background: url("/core/img/bg-input-contact.gif");
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#login .legend-contact {
+	font-family: Verdana, Helvetica;
+	font-size: 0.9em;
+	width: 130px;
+	text-align: right;
+	padding-right: 10px;
+	vertical-align: middle;
+	color: #405c81;
+	font-weight: bold;
+}
+
+.links-login {
+	margin-top: 10px;
+}
+
+#login a {
+	padding-left: 140px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #d12426;
+	font-size: 0.8em;
+	clear: both;
+	line-height: 1.56em;
+}
+
+#login a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+#login #button-cell {
+	padding-top: 15px;
+}
+
+#login #login-password-empty-error {
+	font-size: 9px;
+	font-weight: bold;
+	color: red;
+}
+
+#login #login-user-empty-error {
+	font-size: 9px;
+	font-weight: bold;
+	color: red;
+}
+
+#login .error-message {
+	font-size: 9px;
+	font-weight: bold;
+	color: red;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#login-message-cell {
+	height: 30px;
+}
+
+.success-message * {
+	font-size: 11px;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.content-form-popup1 {
+	margin-top: 15px;
+	height: 420px;
+	overflow: auto;
+	width: 570px;
+}
+
+.button-zone-popup,.button-zone-popup input {
+	font-size: 11px;
+	margin-top: 2px;
+}
+
+#register-message-cell {
+	height: 30px;
+}
+
+.buttons-register {
+	padding-top: 25px;
+}
+
+#Msg {
+	color: #a61414;
+	font-weight: bold;
+}
+
+.img-popup {
+	background: white;
+	border: 7px solid #3c3c3c;
+	font-size: 11px;
+	text-align: center;
+	font-family: "Verdana"
+}
+
+.img-popup a {
+	color: #1364a4;
+}

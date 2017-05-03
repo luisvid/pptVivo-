@@ -1,0 +1,30 @@
+;database configuration
+dbms=mysql
+dbserver=localhost
+dbname=pptvivo
+dbuser=pptvivo
+dbpass=pptvivo1324
+
+;Timezone
+default.timezone="America/Argentina/Mendoza"
+
+;minify options
+minimice.css=1
+minimice.js=1
+
+;ppt importing
+output.format=png
+intermediate.format=pdf
+;Debe ser el mismo directorio absoluto que el indicado en el alias del vhost (ver installation.txt)
+presentations.path.alias=/var/www/files/
+presentations.path.users=users/presentations/
+presentations.path.users.files.public=/files/users/presentations/
+convert.command.path=/home/pptvivo/image_converter.sh
+
+;facebook app information
+facebook.app.id = "483086418382336"
+facebook.app.secret = "793dc47c5eb00793f84eb5e7caa1c7df"
+
+;twitter app information
+twitter.consumer.key = "ChD4eEwXJ46jO7KtaSB1Q"
+twitter.consumer.secret = "nwiaksgYPnCL5MxI63aEknVRbC76TxbvAvylc8zQ8"

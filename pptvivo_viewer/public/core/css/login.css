@@ -1,0 +1,63 @@
+* {
+	font-family: verdana;
+	font-size: 11px;
+}
+
+#login-error {
+	padding: 18px;
+	color: red;
+	background-color: white;
+}
+
+#form_login_label {
+	position: relative;
+	top: 42px;
+	font-size: 2em;
+	text-align: right;
+	width: 51%;
+}
+
+.invalidLogin {
+	color: red;
+	font-weight: bold;
+}
+
+.centered-container {
+	float: left;
+	left: 50%;
+	padding-top: 10px;
+	position: relative;
+}
+
+.centered-content {
+	float: left;
+	left: -50%;
+	position: relative;
+}
+
+input[type=text],input[type=password] {
+	height: 20px;
+}
+
+input[type=submit] {
+	height: 30px;
+	padding: 2px;
+}
+
+.external-login-container img{
+	border: none;
+}
+
+.external-login-container a{
+	text-decoration: none;
+	height: 32px;
+	width: 32px;
+}
+
+.forgot-link{
+	font-size: 10px;
+}
+
+#loginForm, #restorePasswordMailForm, #registerUserForm{
+	margin-bottom: 0px;
+}

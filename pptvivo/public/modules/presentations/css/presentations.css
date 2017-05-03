@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+
+.presentations-container{
+	clear: both;
+}
+
+.presentation-element{
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #888888;
+	padding: 4px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.presentation-preview, .presentation-info, .presentation-actions{
+	float: left;
+}
+
+.presentation-preview img{
+}
+
+.presentation-preview{
+	width: 18%;
+	margin-right: 3px;
+	text-align: center;
+}
+
+.presentation-info{
+	width: 74%;
+	margin-right: 3px;
+}
+
+.presentation-title{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.presentation-detail{
+	font-size: 0.9em; 
+}
+
+.presentation-actions{
+	width: 6%;
+}
+
+.presentation-actions > div{
+	
+}
+
+.presentation-date{
+	font-size: 0.8em;
+}
+
+.presentation-element-attendance{
+	width: 80%;
+	margin: 0 auto;
+	padding: 4px;
+}
+
+.presentation-info-attendance{
+	float: left;
+	width: 89%;
+	margin-right: 3px;
+}
+
+.presentation-actions-attendance{
+	float: left;
+	width: 10%;
+}
+
+.presentations-attendances{
+	padding-left: 20px;
+	float: left;
+	border-bottom: 1px solid #888888;
+	margin-bottom: 8px;
+	width: 100%;
+	padding-bottom: 8px;
+}
+
+.presentation-container-attendance{
+	clear: both;
+	min-height: 40px;
+	max-height: 40px;
+}
+
+.exposition-element{
+	width: 95%;
+	margin: 0 auto 10px auto;
+	padding: 4px;
+	border-bottom: 1px solid #888888;
+}
+
+.exposition-element-date{
+	margin-bottom: 4px;
+}
+
+.presentations_url{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.presentations_url div{
+	margin-top: 6px;
+}
+
+.presentations_url a{
+	display: block;
+}
+
+.exposition-questions, .exposition-attendants{
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.presentations_links_info{
+	display: none;
+}
+
+.list-container .list-item .info a, .list-container .list-item .info a:hover {
+	color: #E74E0F;
+}
+
+.list-container .list-item .info .preview, .list-container .list-item .info .preview img {
+	height: 76px;
+	width: 100px;
+}
+
+.list-container .list-item .info .preview {
+	float: left;
+	margin-right: 6px;
+}
+
+.list-container .list-item .info .presentation-detail {
+	float: right;
+	width: 282px;
+	height: 80px;
+}
+
+.list-container .list-item .presentation-url {
+	color: #706F6F;
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    float: left;
+    width: 100%;
+}
+
+.list-container .list-item .presentation-url a {
+	color: #E74E0F;
+}
+
+.qrcode-container {
+    font-size: 30px;
+    text-align: center;
+}
+
+.short-url-text {
+    width: 112px;
+    display: inline-block;
+}
+
+#notice {
+	color: red;
+	font-size: 12px; 
+}
+
+.list-col {
+    width: 525px;
+}
+
+#list-pages {
+    width: 525px;
+}

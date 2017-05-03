@@ -1,0 +1,135 @@
+/*
+ * CSS for login. 
+ */
+* {
+	font-family: verdana;
+	font-size: 11px;
+}
+
+.login-zone {
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin: 120px auto 0;
+	width: 720px;
+}
+
+#header-login {
+	width: 720px;
+	height: 81px;
+}
+
+.login-zone form {
+	background-color: #fff;
+	margin: 0 !important;
+}
+
+#login-error {
+	padding: 18px;
+	color: red;
+	background-color: white;
+}
+
+#foot-login {
+	width: 720px;
+	height: 9px;
+}
+
+#form_login_label {
+	position: relative;
+	top: 42px;
+	font-size: 2em;
+	text-align: right;
+	width: 51%;
+}
+
+.invalidLogin {
+	color: red;
+	font-weight: bold;
+}
+
+.centered-container {
+	float: left;
+	left: 50%;
+	padding-top: 10px;
+	position: relative;
+}
+
+.centered-content {
+	float: left;
+	left: -50%;
+	position: relative;
+}
+
+.page_top_bar {
+	height: 26px;
+	width: 100%;
+	background-color: #F5C06E;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.page_top_bar div{
+	float: right;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+
+.page_top_bar div a{
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+.page_top_bar div a:hover{
+	text-decoration: underline;
+}
+
+input[type=text],input[type=password] {
+	width: 220px;
+	height: 20px;
+}
+
+input[type=submit] {
+	width: 90px;
+	height: 30px;
+	padding: 2px;
+}
+
+.login-form-register-container div{
+	font-size: 2em;	
+}
+
+.login-form-register-container a{
+	font-size: 1.8em;
+	text-decoration: none;
+	color: #556FA7;
+	font-weight: bold;
+}
+
+.login-form-register-container a:hover{
+	text-decoration: underline;
+}
+
+.external-login-container {
+	text-align: center;
+}
+
+.external-login-container img {
+	border: none;
+}
+
+.external-login-container a {
+	text-decoration: none;
+}
+
+.external-login-container .tw-login-image {
+	height: 22px;
+	width: 22px;
+	vertical-align: top;
+}
+
+.forgot-link{
+	font-size: 10px;
+}

@@ -1,0 +1,118 @@
+#facebook_share_button a {
+	cursor: pointer;
+	float: left;
+	margin-top: 6px;
+	font: bold 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	/*color: #3B5998;
+	-moz-user-select: none;
+	background: #2A49A5;
+	border: 1px solid #082783;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px #4C6BC7 inset;
+	-webkit-box-shadow: 0 1px #4C6BC7 inset;
+	box-shadow: 0 1px #4C6BC7 inset;
+	color: white;
+	padding: 2px 5px;
+	text-decoration: none;
+	-moz-text-shadow: 0 -1px 0 #082783;
+	-webkit-text-shadow: 0 -1px 0 #082783;
+	text-shadow: 0 -1px 0 #082783;
+	height: 13px;
+	*/
+}
+
+#facebook_share_button,#twitter-share-button {
+	float: left;
+	margin-right: 10px;
+}
+
+.playerMenuContainer {
+	position: absolute; 
+	top: 0px; 
+	right: 0px;
+}
+
+#displayNotesArrow{
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2em;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	width: 16px;
+	height: 80px;
+	background-color: #D8490E;
+	border-radius: 3px 0px 0px 3px;
+	color: #FFF;
+	text-align: center;
+}
+
+#displayNotesArrow .rotate {
+	position: absolute;
+	top: 20px;
+	left: -11px;
+	font-family: 'Bree', Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+#displayNotesArrow .icon-plus, #displayNotesArrow .icon-minus {
+	position: absolute;
+	top: 56px;
+	left: 2px;
+}
+
+.show-grid .show-grid div.questionButton{
+	background-color: #FFF;
+}
+
+#playerMenu > .show-grid {
+	background-color: #FFF;
+}
+
+#playerMenu .playerMenu {
+	border: 1px solid;
+	border-radius: 4px;
+	padding: 4px;
+}
+
+#playerMenu #questionsMainContainer {
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+#playerMenu #notesMainContainer #notesContainer .show-grid .span12 {
+	overflow-y: auto;
+	height: 260px;
+	max-height: 260px;
+}
+
+#social-networks-share {
+	margin-top: 10px;
+	overflow: auto;
+	background-color: #FFF;
+	margin-left: 0px;
+}
+
+#playerMenu a.login {
+	height: 24px;
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 25px;
+	background-color: #e74e0f;
+	color: #FFF;
+	font-size: 13px;
+	margin-left: 10px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+#playerMenu .loginContainer {
+	width: 100%;
+	text-align: center;
+}
